@@ -18,8 +18,8 @@ description = "SHA256 verification circuit in halo2 supporting dynamic length in
 #     "halo2-pse",
 #     "display",
 # ], git = "https://github.com/axiom-crypto/halo2-lib.git", rev = "9860acc" }
-halo2-base = { branch = "main", default-features = false, features = ["halo2-pse", "display"], git = "https://github.com/zkwebauthn/halo2-lib.git" }
-halo2-ecc = { branch = "main", default-features = false, features = ["halo2-pse", "display"], git = "https://github.com/zkwebauthn/halo2-lib.git" }
+halo2-base = { rev = "b9c539f", default-features = false, features = ["halo2-pse", "display"], git = "https://github.com/CliqueOfficial/halo2-lib-zkwebauthn.git" }
+halo2-ecc = { rev = "b9c539f", default-features = false, features = ["halo2-pse", "display"], git = "https://github.com/CliqueOfficial/halo2-lib-zkwebauthn.git" }
 # zkevm-circuits = { git = "https://github.com/SoraSuegami/zkevm-circuits.git", branch = "feat/simple_compression" }
 # halo2_proofs = { git = "https://github.com/privacy-scaling-explorations/halo2.git", tag = "v2022_10_22" }
 # eth-types = { git = "https://github.com/SoraSuegami/zkevm-circuits.git", branch = "feat/simple_compression" }
